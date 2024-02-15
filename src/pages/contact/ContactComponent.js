@@ -44,14 +44,15 @@ class Contact extends Component {
                   {ContactData["description"]}
                 </p>
                 <SocialMedia theme={theme} />
+                {/* TODO: See my description's button send to the description and the explication about me 
                 <div className="resume-btn-div">
                   <Button
-                    text="See My Resume"
+                    text="See My Description"
                     newTab={true}
                     href={greeting.resumeLink}
                     theme={theme}
                   />
-                </div>
+                </div> */}
               </div>
             </div>
           </Fade>

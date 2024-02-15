@@ -2,10 +2,10 @@
   "data": [
     {
       "id": "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-      "name": "masterPortfolio",
-      "createdAt": "2020-03-06T16:26:54Z",
-      "url": "https://github.com/ashutosh1919/masterPortfolio",
-      "description": "🔥 The Complete Customizable Software Developer Portfolio Template which lets you showcase your work and provides each and every detail about you as Software Developer.",
+      "name": "Master Portfolio",
+      "createdAt": "2024-02-07T16:26:54Z",
+      "url": "https://github.com/Liantsoa-Rabevahoaka/master-portfolio-reactjs",
+      "description": "🔥 Customizable developer portfolio template, showcasing your work and details.",
       "isFork": false,
       "languages": [
         {
@@ -28,10 +28,10 @@
     },
     {
       "id": "R_kgDOG_vYHA",
-      "name": "WhatTodo",
-      "createdAt": "2022-03-13T20:41:33Z",
-      "url": "https://github.com/jojoX94/WhatTodo",
-      "description": "📦 A Simple Todo app design in Flutter to keep track of your task on daily basis.",
+      "name": "My Defense ",
+      "createdAt": "2023-08-07T20:41:33Z",
+      "url": "https://github.com/Liantsoa-Rabevahoaka/My-Defense",
+      "description": "📦 A defense management app with Flutter and Firebase simplifies academic planning.",
       "isFork": true,
       "languages": [
         {
@@ -41,58 +41,33 @@
         {
           "name": "Flutter",
           "iconifyClass": "logos-flutter"
+        },        
+        {
+          "name": "Firebase",
+          "iconifyClass": "logos-firebase"
         }
+        
+
       ]
     },
     {
       "id": "R_kgDOG0_8uQ",
-      "name": "MyNotes-FLUTTER",
-      "createdAt": "2022-02-11T14:50:20Z",
-      "url": "https://github.com/jojoX94/MyNotes-FLUTTER",
-      "description": " A Simple Todo app design in Flutter but with basics implementation of Provider and BLoC pattern.",
+      "name": "Eductech",
+      "createdAt": "2023-06-24T14:50:20Z",
+      "url": "https://github.com/Liantsoa-Rabevahoaka/Eductech",
+      "description": "School management platform with academic planning and course management.",
       "isFork": false,
       "languages": [
         {
-          "name": "Dart",
-          "iconifyClass": "logos-dart"
-        },
-        {
-          "name": "Flutter",
-          "iconifyClass": "logos-flutter"
-        }
-      ]
-    },
-    {
-      "id": "R_kgDOGcPKSQ",
-      "name": " Node-Store_AP",
-      "createdAt": "2021-11-26T17:56:07Z",
-      "url": "https://github.com/jojoX94/Node-Store_API",
-      "description": "⚙️ A Simple Node.js API for a Store.",
-      "isFork": false,
-      "languages": [
-        {
-          "name": "Javascript",
+          "name": "JavaScript",
           "iconifyClass": "logos-javascript"
-        }
-      ]
-    },
-    {
-      "id": "MDEwOlJlcG9zaXRvcnkzMjU5NDM1MTE=",
-      "name": "Easy-Bank-Challenge-HTML",
-      "createdAt": "2021-01-01T08:31:51Z",
-      "url": "https://github.com/jojoX94/Easy-Bank-Challenge-HTML",
-      "description": "🚀 Easy Bank Challenge from Frontend Mentor using HTML, CSS and JavaScript.",
-      "isFork": false,
-      "languages": [
-        {
-          "name": "HTML",
-          "iconifyClass": "logos-html-5"
         },
         {
-          "name": "CSS",
-          "iconifyClass": "logos-css-3"
+          "name": "Php",
+          "iconifyClass": "logos-php"
         }
       ]
     }
+    
   ]
 }

@@ -7,11 +7,11 @@ const settings = {
 
 //SEO Related settings
 const seo = {
-  title: "Ramarolahy's Portfolio",
+  title: "Liantsoa's Portfolio",
   description:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "“Immersed in the world of coding, my passion is a constant quest for learning and development, where each opportunity represents a new step towards excellence.”",
   og: {
-    title: "Jo Ramarolahy Portfolio",
+    title: "Liantsoa Rabevahoaka Portfolio",
     type: "website",
     url: "http://ashutoshhathidara.com/",
   },
@@ -19,15 +19,15 @@ const seo = {
 
 //Home Page
 const greeting = {
-  title: "Jo Ramarolahy",
-  logo_name: "JoRamarolahy",
-  nickname: "code_crusaderX",
+  title: "Liantsoa Rabevahoaka",
+  logo_name: "LiantsoaRabevahoaka",
+  nickname: "CodeCraftX",
   subTitle:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
-  resumeLink:
-    "https://drive.google.com/file/d/13rRKfYvgVfWW58VPRvqKKuBZaGyXE6do/view?usp=sharing",
-  portfolio_repository: "https://github.com/jojoX94/masterPortfolio--React_Js",
-  githubProfile: "https://github.com/jojoX94/",
+    "Immersed in the world of coding, my passion is a constant quest for learning and development, where each opportunity represents a new step towards excellence.",
+  // resumeLink:
+  //   "https://drive.google.com/file/d/13rRKfYvgVfWW58VPRvqKKuBZaGyXE6do/view?usp=sharing",
+  portfolio_repository: "https://github.com/Liantsoa-Rabevahoaka/master-portfolio",
+  githubProfile: "https://github.com/Liantsoa-Rabevahoaka/",
 };
 
 const socialMediaLinks = [
@@ -42,13 +42,13 @@ const socialMediaLinks = [
 
   {
     name: "Github",
-    link: "https://github.com/jojoX94/",
+    link: "https://github.com/Liantsoa-Rabevahoaka/",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
   {
     name: "LinkedIn",
-    link: "https://www.linkedin.com/in/ramarolahy-fitahiana-81739b219/",
+    link: "https://www.linkedin.com/in/liantsoa-rabevahoaka-4b8b46290",
     fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
     backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
   },
@@ -60,28 +60,28 @@ const socialMediaLinks = [
   // },
   {
     name: "Gmail",
-    link: "mailto:ramarolacontact@gmail.com",
+    link: "mailto:liantsoa.rabevahoaka@gmail.com",
     fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
     backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
   },
-  {
-    name: "Twitter",
-    link: "https://twitter.com/jacky34511",
-    fontAwesomeIcon: "fa-twitter", // Reference https://fontawesome.com/icons/twitter?style=brands
-    backgroundColor: "#1DA1F2", // Reference https://simpleicons.org/?q=twitter
-  },
-  {
-    name: "Facebook",
-    link: "https://web.facebook.com/codetech.mg/",
-    fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
-    backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
-  },
-  {
-    name: "Instagram",
-    link: "https://www.instagram.com/johnnymouse23/",
-    fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
-    backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
-  },
+  // {
+  //   name: "Twitter",
+  //   link: "https://twitter.com/jacky34511",
+  //   fontAwesomeIcon: "fa-twitter", // Reference https://fontawesome.com/icons/twitter?style=brands
+  //   backgroundColor: "#1DA1F2", // Reference https://simpleicons.org/?q=twitter
+  // },
+  // {
+  //   name: "Facebook",
+  //   link: "https://web.facebook.com/codetech.mg/",
+  //   fontAwesomeIcon: "fa-facebook-f", // Reference https://fontawesome.com/icons/facebook-f?style=brands
+  //   backgroundColor: "#1877F2", // Reference https://simpleicons.org/?q=facebook
+  // },
+  // {
+  //   name: "Instagram",
+  //   link: "https://www.instagram.com/johnnymouse23/",
+  //   fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
+  //   backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
+  // },
 ];
 
 const skills = {
@@ -137,8 +137,8 @@ const skills = {
       fileName: "FullStackImg",
       skills: [
         "⚡ Building responsive website front end using React-Redux",
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
-        "⚡ Creating application backend in Node, Express & Flask",
+        "⚡ Developing mobile applications using Flutter and using Kotlin",
+        "⚡ Creating application backend in Node, Express & Laravel",
       ],
       softwareSkills: [
         {
@@ -155,13 +155,13 @@ const skills = {
             color: "#1572B6",
           },
         },
-        {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
-          style: {
-            color: "#CC6699",
-          },
-        },
+        // {
+        //   skillName: "Sass",
+        //   fontAwesomeClassname: "simple-icons:sass",
+        //   style: {
+        //     color: "#CC6699",
+        //   },
+        // },
         {
           skillName: "JavaScript",
           fontAwesomeClassname: "simple-icons:javascript",
@@ -185,6 +185,20 @@ const skills = {
           },
         },
         {
+          skillName: "Express",
+          fontAwesomeClassname: "simple-icons:express",
+          style: {
+            color: "#000000", // La couleur de l'icône
+          },
+        },
+        {
+          skillName: "Laravel",
+          fontAwesomeClassname: "simple-icons:laravel",
+          style: {
+            color: "#FF2D20", // La couleur de l'icône
+          },
+        },
+        {
           skillName: "NPM",
           fontAwesomeClassname: "simple-icons:npm",
           style: {
@@ -198,13 +212,13 @@ const skills = {
             color: "#2C8EBB",
           },
         },
-        {
-          skillName: "Gatsby",
-          fontAwesomeClassname: "simple-icons:gatsby",
-          style: {
-            color: "#663399",
-          },
-        },
+        // {
+        //   skillName: "Gatsby",
+        //   fontAwesomeClassname: "simple-icons:gatsby",
+        //   style: {
+        //     color: "#663399",
+        //   },
+        // },
         {
           skillName: "Flutter",
           fontAwesomeClassname: "simple-icons:flutter",
@@ -220,31 +234,30 @@ const skills = {
       skills: [
         "⚡ Experience working on multiple cloud platforms",
         "⚡ Hosting and maintaining websites on virtual machine instances along with integration of databases",
-        "⚡ Deploying deep learning models on cloud to use on mobile devices",
-        "⚡ Setting up streaming jobs from DB to Server or vice-versa on GCP and AWS",
+        "⚡ Setting up streaming jobs from DB to Server ",
       ],
       softwareSkills: [
-        {
-          skillName: "GCP",
-          fontAwesomeClassname: "simple-icons:googlecloud",
-          style: {
-            color: "#4285F4",
-          },
-        },
-        {
-          skillName: "AWS",
-          fontAwesomeClassname: "simple-icons:amazonaws",
-          style: {
-            color: "#FF9900",
-          },
-        },
-        {
-          skillName: "Azure",
-          fontAwesomeClassname: "simple-icons:microsoftazure",
-          style: {
-            color: "#0089D6",
-          },
-        },
+        // {
+        //   skillName: "GCP",
+        //   fontAwesomeClassname: "simple-icons:googlecloud",
+        //   style: {
+        //     color: "#4285F4",
+        //   },
+        // },
+        // {
+        //   skillName: "AWS",
+        //   fontAwesomeClassname: "simple-icons:amazonaws",
+        //   style: {
+        //     color: "#FF9900",
+        //   },
+        // },
+        // {
+        //   skillName: "Azure",
+        //   fontAwesomeClassname: "simple-icons:microsoftazure",
+        //   style: {
+        //     color: "#0089D6",
+        //   },
+        // },
         {
           skillName: "Firebase",
           fontAwesomeClassname: "simple-icons:firebase",
@@ -260,26 +273,33 @@ const skills = {
           },
         },
         {
+          skillName: "MySQL",
+          fontAwesomeClassname: "simple-icons:mysql",
+          style: {
+            color: "#4479A1", // La couleur de l'icône
+          },
+        },
+        {
           skillName: "MongoDB",
           fontAwesomeClassname: "simple-icons:mongodb",
           style: {
             color: "#47A248",
           },
         },
-        {
-          skillName: "Docker",
-          fontAwesomeClassname: "simple-icons:docker",
-          style: {
-            color: "#1488C6",
-          },
-        },
-        {
-          skillName: "Kubernetes",
-          fontAwesomeClassname: "simple-icons:kubernetes",
-          style: {
-            color: "#326CE5",
-          },
-        },
+        // {
+        //   skillName: "Docker",
+        //   fontAwesomeClassname: "simple-icons:docker",
+        //   style: {
+        //     color: "#1488C6",
+        //   },
+        // },
+        // {
+        //   skillName: "Kubernetes",
+        //   fontAwesomeClassname: "simple-icons:kubernetes",
+        //   style: {
+        //     color: "#326CE5",
+        //   },
+        // },
       ],
     },
     {
@@ -291,13 +311,13 @@ const skills = {
         "⚡ Creating the flow of application functionalities to optimize user experience",
       ],
       softwareSkills: [
-        {
-          skillName: "Adobe XD",
-          fontAwesomeClassname: "simple-icons:adobexd",
-          style: {
-            color: "#FF2BC2",
-          },
-        },
+        // {
+        //   skillName: "Adobe XD",
+        //   fontAwesomeClassname: "simple-icons:adobexd",
+        //   style: {
+        //     color: "#FF2BC2",
+        //   },
+        // },
         {
           skillName: "Figma",
           fontAwesomeClassname: "simple-icons:figma",
@@ -312,13 +332,13 @@ const skills = {
             color: "#FF7C00",
           },
         },
-        {
-          skillName: "Inkscape",
-          fontAwesomeClassname: "simple-icons:inkscape",
-          style: {
-            color: "#000000",
-          },
-        },
+        // {
+        //   skillName: "Inkscape",
+        //   fontAwesomeClassname: "simple-icons:inkscape",
+        //   style: {
+        //     color: "#000000",
+        //   },
+        // },
       ],
     },
   ],
@@ -327,86 +347,74 @@ const skills = {
 // Education Page
 const competitiveSites = {
   competitiveSites: [
-    {
-      siteName: "LeetCode",
-      iconifyClassname: "simple-icons:leetcode",
-      style: {
-        color: "#F79F1B",
-      },
-      profileLink: "https://leetcode.com/jojoX94/",
-    },
-    {
-      siteName: "HackerRank",
-      iconifyClassname: "simple-icons:hackerrank",
-      style: {
-        color: "#2EC866",
-      },
-      profileLink: "https://www.hackerrank.com/ramarolacontact?hr_r=1",
-    },
-    {
-      siteName: "Codechef",
-      iconifyClassname: "simple-icons:codechef",
-      style: {
-        color: "#5B4638",
-      },
-      profileLink: "https://www.codechef.com/users/codecrusader04",
-    },
-    {
-      siteName: "Codeforces",
-      iconifyClassname: "simple-icons:codeforces",
-      style: {
-        color: "#1F8ACB",
-      },
-      profileLink: "https://codeforces.com/profile/codecrusader04",
-    },
-    {
-      siteName: "Hackerearth",
-      iconifyClassname: "simple-icons:hackerearth",
-      style: {
-        color: "#323754",
-      },
-      profileLink: "https://www.hackerearth.com/@codecrusader04",
-    },
-    {
-      siteName: "Kaggle",
-      iconifyClassname: "simple-icons:kaggle",
-      style: {
-        color: "#20BEFF",
-      },
-      profileLink: "https://www.kaggle.com/codecrusader04",
-    },
+    // {
+    //   siteName: "LeetCode",
+    //   iconifyClassname: "simple-icons:leetcode",
+    //   style: {
+    //     color: "#F79F1B",
+    //   },
+    //   profileLink: "https://leetcode.com/jojoX94/",
+    // },
+    // {
+    //   siteName: "HackerRank",
+    //   iconifyClassname: "simple-icons:hackerrank",
+    //   style: {
+    //     color: "#2EC866",
+    //   },
+    //   profileLink: "https://www.hackerrank.com/ramarolacontact?hr_r=1",
+    // },
+    // {
+    //   siteName: "Codechef",
+    //   iconifyClassname: "simple-icons:codechef",
+    //   style: {
+    //     color: "#5B4638",
+    //   },
+    //   profileLink: "https://www.codechef.com/users/codecrusader04",
+    // },
+    // {
+    //   siteName: "Codeforces",
+    //   iconifyClassname: "simple-icons:codeforces",
+    //   style: {
+    //     color: "#1F8ACB",
+    //   },
+    //   profileLink: "https://codeforces.com/profile/codecrusader04",
+    // },
+    // {
+    //   siteName: "Hackerearth",
+    //   iconifyClassname: "simple-icons:hackerearth",
+    //   style: {
+    //     color: "#323754",
+    //   },
+    //   profileLink: "https://www.hackerearth.com/@codecrusader04",
+    // },
+    // {
+    //   siteName: "Kaggle",
+    //   iconifyClassname: "simple-icons:kaggle",
+    //   style: {
+    //     color: "#20BEFF",
+    //   },
+    //   profileLink: "https://www.kaggle.com/codecrusader04",
+    // },
   ],
 };
 
 const degrees = {
   degrees: [
     {
-      title: "National Tele-Education Center of Madagascar",
-      subtitle: "B.Tech. in Software Engineering",
-      logo_path: "cntemad_logo.png",
-      alt_name: "CNTEMAD Logo",
-      duration: "2017 - 2020",
+      title: "Higher School of Information Technologies",
+      subtitle: "Integration and Development",
+      logo_path: "esti_logo.png",
+      alt_name: "ESTI Logo",
+      duration: "2022 - Now",
       descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, etc.",
-        "⚡ Apart from this, I have done courses on Mobile Development, Project Management and Full Stack Development.",
-        "⚡ Graduated with a solid foundation in software engineering principles, ready to tackle complex challenges and contribute effectively to software development projects.",
-      ],
-      website_link: "http://www.cntemad.mg/",
-    },
-    {
-      title: "National Tele-Education Center of Madagascar",
-      subtitle: "M.S. in Software Science",
-      logo_path: "cntemad_logo.png",
-      alt_name: "CNTEMAD Logo",
-      duration: "2021 - 2023",
-      descriptions: [
-        "⚡ Pursued an M.S. in Software Engineering with a strong focus on fullstack web development using JavaScript technologies.",
-        "⚡ Developed a deep understanding of both frontend and backend technologies, crafting dynamic and responsive user interfaces while also designing robust server-side solutions.",
+        "⚡ I am pursuing a degree in integration and development with a strong emphasis on full-stack web development using JavaScript and PHP technologies.",
+        "⚡ Apart from that, I took courses on software maintenance, management techniques in an IT environment, communication, change management and leadership.",
+        "⚡ Developed a understanding of both frontend and backend technologies, crafting dynamic and responsive user interfaces while also designing robust server-side solutions.",
         "⚡ Designed and implemented fullstack applications, integrating frontend frameworks like React and backend technologies such as Node.js and Express to build efficient and scalable web applications.",
-        "⚡ Explored the latest trends in web security and best practices, implementing authentication and authorization mechanisms to safeguard user data and enhance application security.",
       ],
-      website_link: "http://www.cntemad.mg/",
+      website_link: "https://esti.mg/",
     },
+    
   ],
 };
 
@@ -478,7 +486,7 @@ const experience = {
 const projectsHeader = {
   title: "Projects",
   description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+    "My projects use a wide variety of the latest technological tools. My best experience is creating Tensorflow and App Cheat projects and deploying them to interactive and fun apps",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -499,30 +507,30 @@ const contactPageData = {
     title: "Contact Me",
     profile_image_path: "animated_ashutosh.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with ML, AI, React, Android, Cloud and Opensource Development.",
+      "I am available on almost every social media. You can message me, I will reply within 24 hours. I can help you with React, Android, Cloud and Opensource Development.",
   },
   blogSection: {
     title: "",
     subtitle:
       "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
-    link: "https://blogs.ashutoshhathidara.com/",
+    link: "https://liantsoa.rabevahoaka@gmail.com/",
     avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
     title: "Address",
-    subtitle: "Mandroseza, Antananarivo, Madagascar",
-    locality: "Mandroseza",
+    subtitle: "Faravohitra, Antananarivo, Madagascar",
+    locality: "Faravohitra",
     country: "MDG",
     region: "Tana",
     postalCode: "TANA-101",
     streetAddress: "",
     avatar_image_path: "address_image.svg",
     location_map_link:
-      "https://www.google.com/maps/place/Mandroseza,+Antananarivo/@-18.9374673,47.5477345,15.88z/data=!4m6!3m5!1s0x21f07db96c1dc273:0xd9a26ad8570bd2d1!8m2!3d-18.9357169!4d47.5502562!16s%2Fg%2F1tfysm_l?entry=ttu",
+      "https://www.google.com/maps/place/Faravohitra,+Tananarive/@-18.9099733,47.5253416,16z/data=!3m1!4b1!4m6!3m5!1s0x21f07dfc31316e63:0x9844179b231ed491!8m2!3d-18.9097491!4d47.5309179!16s%2Fg%2F1tf8b94v?entry=ttu",
   },
   phoneSection: {
-    title: "",
-    subtitle: "",
+    title: "Phone",
+    subtitle: "033 87 015 35",
   },
 };
 
